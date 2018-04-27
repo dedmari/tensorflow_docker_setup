@@ -6,5 +6,5 @@ Base image of official TensorFlow 1.6(GPU, Py3) is used. Please visit https://hu
 
 ## Steps to create custom docker image: ##
 1. Create a directory and copy Dockerfile. Dockerfile defines what goes on in the environment inside your container.
-2. 
+2. Dockerfile starts with base image, in this case ``` FROM gcr.io/tensorflow/tensorflow:1.6.0-gpu-py3 ``` 
 
